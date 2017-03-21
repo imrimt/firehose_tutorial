@@ -16,9 +16,14 @@ h2 {
 	font-size: 20px;
 }
 
+h2 span {
+  font-family: 'Pacifico', cursive;
+  color: #dddddd;
+}
+
 h3 {
 	font-family: 'Pacifico', cursive;
-	font-size: 15px;
+	font-size: 35px;
 }
 
 hr {
@@ -49,10 +54,24 @@ hr {
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   padding-top: 26px;
+}
+
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;  
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .logo:hover {
@@ -80,6 +99,10 @@ hr {
   color:#f84342;
   font-family: 'Pacifico', cursive;
   font-size: 20px;
+}
+
+::selection {
+  background-color: #f84342;
 }
 
 .LI-profile-badge {
